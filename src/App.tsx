@@ -7,7 +7,7 @@ function App() {
   console.log(count)
   return (
     <>
-      <h1>Hello Would</h1>
+      <h1>皆さんこんにちは</h1>
       <div>count:{count}</div>
       <CountPreview hoge={count}/>
       <button onClick={function(){
