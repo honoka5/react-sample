@@ -15,7 +15,7 @@ function App() {
         setCount(count+1)
         console.log(count)
       }}>+</button>
-      <h2 color='#008080'>増えていくの？</h2>
+      <h2 color='Red'>増えていくの？</h2>
 
       <button onClick={function(){
         if(count===0){
@@ -24,7 +24,7 @@ function App() {
         setCount(count-1)
         console.log(count)
       }}>-</button>
-      <h2 color='navy'>減っていくかも</h2>
+      <h2 color='blue'>減っていくかも</h2>
     </>
   )
 }
