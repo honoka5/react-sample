@@ -8,17 +8,23 @@ function App() {
   return (
     <>
       <h1>皆さんこんにちは</h1>
-      <div>count:{count}</div>
+    {/*<div>count:{count}</div> ここをコメントアウトしなければcount二個になる*/}
       <CountPreview hoge={count}/>
+
       <button onClick={function(){
         setCount(count+1)
         console.log(count)
       }}>+</button>
+      <h2 color='#008080'>増えていくの？</h2>
 
       <button onClick={function(){
+        if(count===0){
+          return
+        }
         setCount(count-1)
         console.log(count)
       }}>-</button>
+      <h2 color='navy'>減っていくかも</h2>
     </>
   )
 }
