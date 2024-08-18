@@ -60,7 +60,7 @@ button:focus-visible {
   :root {
     margin-top:1px;
     color: #4405f1;
-    background-image: url("onigiribg-860x484.jpg");
+    background-image:url("onigiribg-860x484.jpg");
   }
   /* a:hover {
     color: #ff0000;

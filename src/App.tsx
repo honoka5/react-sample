@@ -11,7 +11,7 @@ function App() {
       {/*<div>count:{count}</div> ここをコメントアウトしなければcount二個になる*/}
       <CountPreview hoge={count}/>
       <div id='jo'>
-      <div id='tarako'>
+      <div id='tara'>
         <button onClick={function(){
           setCount(count+1)
           console.log(count)
