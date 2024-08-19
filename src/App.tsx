@@ -12,7 +12,7 @@ function App() {
       <CountPreview hoge={count}/>
       <h3 id='lo'>ここの下のカウントが変わっていく.</h3>
       <div id='jo'>
-      <div id='tarako'>
+      <div id='tara'>
         <button onClick={function(){
           setCount(count+1)
           console.log(count)
