@@ -1,48 +1,50 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  line-height:0.1;/*増えて行くの？減っていくの？の文字の移動に作用*/
+  font-weight:900;/*countの文字の太さに作用*/
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 0, 0, 0.87); */
+  /* background-color: #ff0000; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #66ff00;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+} */
+/* a:hover {
+  color: #ff8400;
+} */
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 0 auto;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 600px;
+  min-height: 100vh; */
+ 
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#oni{
+  font-size: 3.5em;/*皆さんこんにちはの文字の大きさに作用*/
+  line-height:3;/*皆さんこんにちはとおにぎりの写真の場所に作用*/
+  margin: 0 auto;
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 8px;/*ボタンを丸くすることに作用*/
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-family: inherit;
-  background-color: #1a1a1a;
+  /* background-color: #51ff00; */
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -57,13 +59,13 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     margin-top:1px;
-    color: #4405f1;
+    color: #e600ff;
     background-image:url("onigiribg-860x484.jpg");
   }
-  a:hover {
-    color: #747bff;
-  }
+  /* a:hover {
+    color: #06fe8e;
+  } */
   button {
-    background-color: #f9f9f9;
+    background-color: #4dff00;
   }
 }

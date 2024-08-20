@@ -3,15 +3,14 @@
   height: 300px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align:center;
   background-image:url("../スクリーンショット 2024-08-04 012638.png");
   background-size: 150px;
-
 }
 
 #jozi{
-  top: 500px;
-  height: 150px;
+  height: 150px;/*中身のcount以外の場所（高さ）*/
+  font-size: 50px;
 }
 
 @keyframes logo-spin {
@@ -36,8 +35,15 @@
 /* .read-the-docs {
   color: #888;
 } */
-h1{
-  color: rgb(255, 213, 0);
+#oni{
+  color: rgb(251, 255, 0);
+  margin: 0 auto;
+  text-align: center;
+  /* width: 100%; */
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+ 
 }
 #me{
   color: brown;
