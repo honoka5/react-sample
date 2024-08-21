@@ -10,7 +10,7 @@ function App() {
     <div>
       {/*<div>count:{count}</div> ここをコメントアウトしなければcount二個になる*/}
       <CountPreview hoge={count}/>
-      <h3 id='lo'>ここの下のカウントが変わっていく...</h3>
+      <h2 id='lo'>ここの下のカウントが変わっていく...</h2>
       <div id='jo'>
       <div id='tara'>
         <button onClick={function(){
