@@ -36,7 +36,7 @@
   color: #888;
 } */
 #oni{
-  color: rgb(251, 255, 0);
+  color: rgb(0, 255, 17);
   margin: 0 auto;
   text-align: center;
   /* width: 100%; */
@@ -46,10 +46,10 @@
  
 }
 #me{
-  color: brown;
+  color: rgb(217, 124, 10);
 }
 h2{
-  color: blueviolet;
+  color: rgb(10, 74, 183);
 }
 
 #jo{
@@ -61,7 +61,7 @@ h2{
 }
 
 #lo{
-  color: rgb(4, 0, 255);
+  color: rgb(234, 255, 0);
   font-size: 30px;
 }
 

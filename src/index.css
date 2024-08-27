@@ -59,7 +59,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     margin-top:1px;
-    color: #e600ff;
+    color: #ff00a2;
     background-image:url("onigiribg-860x484.jpg");
   }
   /* a:hover {
